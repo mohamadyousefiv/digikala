@@ -1,0 +1,1406 @@
+header{
+    width: 100%;
+    height:170px;
+    margin-top: 0px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+}
+
+
+
+header>section.top{
+    width:100%;
+    height:60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6AD32;
+}
+header>section.top>a{
+    width: inherit;
+    height: inherit;
+}
+header>section.top>a>img{
+    width: 1545px;
+    height: inherit;
+}
+
+
+
+header>section.middle{
+    width:inherit;
+    height:70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+header>section.middle>section.middle__box{
+    width: 1525px;
+    height: inherit;
+    display: flex;
+}
+
+header>section.middle>section.middle__box>section.lego{
+    width: 15%;
+    height: inherit;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 5px;
+}
+
+
+header>section.middle>section.middle__box>section.search{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.middle>section.middle__box>section.search>input{
+    width: 615px;
+    height: 65%;
+    border: none;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: #F0F0F1;
+}
+header>section.middle>section.middle__box>section.search>input:focus{
+    outline: none;
+}
+header>section.middle>section.middle__box>section.search>input::placeholder{
+    font-size: 12px;
+    font-family: var(--digifont);
+    color: gray;
+}
+
+
+header>section.middle>section.middle__box>section.registration{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+header>section.middle>section.middle__box>section.registration>section.lego__right{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 5px;
+}
+header>section.middle>section.middle__box>section.registration>section.register{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>section.middle>section.middle__box>section.registration>section.register>section.register__box{
+    width: 130px;
+    height: 60%;
+    border-radius: 10px;
+    border: 1px rgb(232, 232, 232) solid;
+    display: flex;
+    align-items: center;
+}
+header>section.middle>section.middle__box>section.registration>section.register>section.register__box>section.r__b__lego{
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 3px;
+}
+header>section.middle>section.middle__box>section.registration>section.register>section.register__box>section.r__b__text{
+    width: 70%;
+    height: inherit;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: var(--digifont);
+    padding-right: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header>section.middle>section.middle__box>section.registration>section.register>section.register__box>section.r__b__text>a{
+    text-decoration: none;
+    color: black;
+}
+
+header>section.middle>section.middle__box>section.registration>section.line{
+    width: 1px;
+    height: 25px;
+    background-color: rgb(232, 232, 232);
+}
+header>section.middle>section.middle__box>section.registration>section.lego__left{
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-right: 20px;
+}
+
+
+
+header>section.bottom{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px #ccccce;
+    background-color: white;
+}
+header>section.bottom>section.bottom__box{
+    width: 1525px;
+    height: inherit;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right{
+    width: 85%;
+    height: inherit;
+    padding-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories{
+    width: 150px;
+    height: inherit;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.category{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: var(--digifont);
+    font-size: 14px;
+    padding-right: 5px;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.category>section.svg{
+    padding-top: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.category>section.text{
+    margin-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.category>i.red__line{
+    width:0px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 300ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.category:hover>i.red__line{
+    width:130px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.category>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.category>section.line{
+    width: 2px;
+    height: 17px;
+    background-color: rgb(232, 232, 232);
+    margin-right: 15px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu{
+    width: 1150px;
+    height: 500px;
+    position: absolute;
+    right: 20px;
+    /* display: flex; */
+    box-shadow: 2px 0px 4px  rgb(211, 211, 211);
+    display: none;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories:hover>section.submenu{
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right{
+    width: 17%;
+    height: inherit;
+    overflow: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right>ul{
+    width: 100%;
+    height: 100%;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right>ul>li{
+    width: inherit;
+    height: 50px;
+    text-align: right;
+    line-height: 50px;
+    background-color: #F0F0F1;
+    padding-right: 15px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right>ul>li>section.svg{
+    margin-top: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right>ul>li:hover>section.svg{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right>ul>li:hover{
+    background-color: white;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right>ul>li:hover>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__right>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left{
+    width: 83%;
+    height: inherit;
+    display: flex;
+    overflow: auto;
+    background-color: white;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a{
+    width: 25%;
+    height: inherit;
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.all{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.all>section.text{
+    font-family: var(--digifont);
+    font-size: 12px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.all>section.text>a{
+    text-decoration: none;
+    color: #038FB3;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.all>section.svg{
+    margin-top: 20px;
+    margin-right: -15px;
+    fill: #038FB3;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.firstSubject{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.firstSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.firstSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.firstSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.firstSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.firstSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.firstSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.secondSubject{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.secondSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.secondSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.secondSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.secondSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.secondSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.secondSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__first{
+    width: 300px;
+    height: 250px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__first>ul{
+    width: inherit;
+    height: inherit;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__first>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 10px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__first>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__first>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.thirdSubject{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.thirdSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.thirdSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.thirdSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.thirdSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.thirdSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.thirdSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__second{
+    width: 200px;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__second>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__second>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__second>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__second>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.forthSubject{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.forthSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.forthSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.forthSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.forthSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.forthSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.forthSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__third{
+    width: 200px;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__third>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__third>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__third>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__a>section.subset__third>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b{
+    width: 25%;
+    height: inherit;
+    padding-top: 100px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.firstSubject{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.firstSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.firstSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.firstSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.firstSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.firstSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.firstSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__first{
+    width: 100%;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__first>ul{
+    width: inherit;
+    height: inherit;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__first>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 10px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__first>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__first>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.secondSubject{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.secondSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.secondSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.secondSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.secondSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.secondSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.secondSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__second{
+    width: 100%;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__second>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__second>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__second>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__second>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.thirdSubject{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.thirdSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.thirdSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.thirdSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.thirdSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.thirdSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.thirdSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__third{
+    width: 200px;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__third>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__third>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__third>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__third>ul>li>a:hover{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.forthSubject{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.forthSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.forthSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.forthSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.forthSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.forthSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.forthSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__forth{
+    width: 200px;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__forth>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__forth>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__forth>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__b>section.subset__forth>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c{
+    width: 25%;
+    height: inherit;
+    padding-top: 100px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.firstSubject{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.firstSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.firstSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.firstSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.firstSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.firstSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.firstSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__first{
+    width: 100%;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__first>ul{
+    width: inherit;
+    height: inherit;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__first>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 10px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__first>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__first>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.secondSubject{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.secondSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.secondSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.secondSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.secondSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.secondSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.secondSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__second{
+    width: 100%;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__second>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__second>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__second>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__second>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.thirdSubject{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.thirdSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.thirdSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.thirdSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.thirdSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.thirdSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.thirdSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__third{
+    width: 200px;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__third>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__third>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__third>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__third>ul>li>a:hover{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.forthSubject{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.forthSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.forthSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.forthSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.forthSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.forthSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.forthSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__forth{
+    width: 200px;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__forth>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__forth>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__forth>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__forth>ul>li>a:hover{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.fifthSubject{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.fifthSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.fifthSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.fifthSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.fifthSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.fifthSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.fifthSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__fifth{
+    width: 200px;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__fifth>ul{
+    width: auto;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__fifth>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 5px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__fifth>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+    margin-right: 8px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__c>section.subset__fifth>ul>li>a:hover{
+    color: red;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d{
+    width: 25%;
+    height: inherit;
+    padding-top: 100px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.firstSubject{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.firstSubject:hover{
+    fill: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.firstSubject:hover>section.text>a{
+    color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.firstSubject>section.line{
+    width: 2px;
+    height: 15px;
+    background-color: red;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.firstSubject>section.text{
+    font-family: var(--digifont);
+    font-size: 14px;
+    margin-right: 7px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.firstSubject>section.text>a{
+    text-decoration: none;
+    color: black;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.firstSubject>section.svg{
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.subset__first{
+    width: 100%;
+    height: auto;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.subset__first>ul{
+    width: inherit;
+    height: inherit;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.subset__first>ul>li{
+    width: inherit;
+    height:35px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 10px;
+    transition: 100ms;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.subset__first>ul>li>a{
+    text-decoration: none;
+    color: #838282;
+    font-family: var(--digifont);
+    font-size: 12px;
+    transition: 100ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.categories>section.submenu>section.submenu__left>section.mobile__d>section.subset__first>ul>li>a:hover{
+    color: red;
+}
+
+
+
+header>section.bottom>section.bottom__box>section.right>nav>section.offer{
+    width: 455px;
+    height: inherit;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.first{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: var(--digifont);
+    font-size: 12px;
+    padding-right: 5px;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.first>i.red__line{
+    width:0px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 300ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.first:hover>i.red__line{
+    width:110px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.first>section.svg{
+    padding-top: 8px;
+    fill: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.first>section.text{
+    margin-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.first>section.text>a{
+    text-decoration: none;
+    color: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.second{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: var(--digifont);
+    font-size: 12px;
+    padding-right: 5px;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.second>i.red__line{
+    width:0px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 300ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.second:hover>i.red__line{
+    width:110px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.second>section.svg{
+    padding-top: 8px;
+    fill: #a1a3a8;
+}
+
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.second>section.text{
+    margin-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.second>section.text>a{
+    text-decoration: none;
+    color: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.third{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: var(--digifont);
+    font-size: 12px;
+    padding-right: 5px;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.third>i.red__line{
+    width:0px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 300ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.third:hover>i.red__line{
+    width:110px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.third>section.svg{
+    padding-top: 8px;
+    fill: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.third>section.text{
+    margin-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.third>section.text>a{
+    text-decoration: none;
+    color: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.forth{
+    width: 25%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: var(--digifont);
+    font-size: 12px;
+    padding-right: 5px;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.forth>i.red__line{
+    width:0px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 300ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.forth:hover>i.red__line{
+    width:100px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.forth>section.svg{
+    padding-top: 8px;
+    fill: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.forth>section.text{
+    margin-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.offer>section.forth>section.text>a{
+    text-decoration: none;
+    color: #a1a3a8;
+}
+
+
+header>section.bottom>section.bottom__box>section.right>nav>section.about{
+    width: 220px;
+    height: inherit;
+    display: flex;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.right{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: var(--digifont);
+    font-size: 12px;
+    padding-right: 5px;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.right>i.red__line{
+    width:0px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 300ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.right:hover>i.red__line{
+    width:85px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.right>section.text{
+    margin-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.right>section.text>a{
+    text-decoration: none;
+    color: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.right>section.line{
+    width: 1.5px;
+    height: 17px;
+    background-color: rgb(232, 232, 232);
+    margin-left: 10px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.left{
+    width: 55%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: var(--digifont);
+    font-size: 12px;
+    padding-right: 5px;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.left>i.red__line{
+    width:0px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 300ms;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.left:hover>i.red__line{
+    width:110px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.left>section.text{
+    margin-right: 5px;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.left>section.text>a{
+    text-decoration: none;
+    color: #a1a3a8;
+}
+header>section.bottom>section.bottom__box>section.right>nav>section.about>section.left>section.line{
+    width: 1px;
+    height: 20px;
+    background-color: rgb(232, 232, 232);
+    margin-left: 10px;
+}
+
+
+
+header>section.bottom>section.bottom__box>section.left{
+    width: 13%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header>section.bottom>section.bottom__box>section.left>section.location{
+    width: 175px;
+    height: 35px;
+    background-color: #FEF6EF;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 35px;
+    font-family: var(--digifont);
+    font-size: 12px;
+    color: #f57f17;
+    cursor: pointer;
+    position: relative;
+}
+header>section.bottom>section.bottom__box>section.left>section.location:hover>section.sub__location{
+    display: block;
+}
+header>section.bottom>section.bottom__box>section.left>section.location>section.sub__location{
+    width: 320px;
+    height: 70px;
+    background-color:#3F4064;
+    position: absolute;
+    left: 0px;
+    top: 43px;
+    border-radius: 5px;
+    display: none;
+    color: white;
+    text-align: right;
+    font-family: var(--digifont);
+    padding: 15px;
+    line-height:20px;
+}

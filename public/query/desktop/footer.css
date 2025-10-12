@@ -1,0 +1,459 @@
+footer{
+    width: 100%;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    .line{
+        width: inherit;
+        height: 1px;
+        background-color: rgb(196, 191, 191);
+        margin-top: 0px;
+    }
+}
+footer>section.top{
+    width: 1525px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .right{
+        width: 50%;
+        height: inherit;
+        .lego{
+            width: 300px;
+            height: 80px;
+            display: flex;
+            align-items: end;
+            justify-content: start;
+            padding-right: 25px;
+        }
+        .text{
+            width: 600px;
+            height: 70px;
+            padding-right: 15px;
+            h1{
+                color: rgb(143, 141, 141);
+                font-family: var(--digifont);
+                font-size: 13px;
+                line-height: 40px;
+                display: inline-block;
+                margin-right: 15px;
+            }
+        }
+    }
+    .left{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        padding-left: 20px;
+        padding-top: 20px;
+        .buttom{
+            width: 130px;
+            height: 40px;
+            border-radius: 7px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px rgb(143, 141, 141) solid;
+
+            a{
+                text-decoration: none;
+                margin-top: 0px;
+                text-align: center;
+                color: rgb(143, 141, 141) ;
+                font-family: var(--digifont);
+                font-size: 14px;
+
+            }
+            .svg{
+                margin-top: 5px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+footer>section.middle{
+    width:1525px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    .box{
+        width: 1360px;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .first{
+            width: 127px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .text{
+                a{
+                    text-decoration: none;
+                    color: rgb(143, 141, 141) ;
+                    font-family: var(--digifont);
+                    font-size: 10px;
+                }
+            }
+        }
+        .second{
+            width: 127px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .text{
+                a{
+                    text-decoration: none;
+                    color: rgb(143, 141, 141) ;
+                    font-family: var(--digifont);
+                    font-size: 10px;
+                }
+            }
+        }
+        .third{
+            width: 127px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .text{
+                a{
+                    text-decoration: none;
+                    color: rgb(143, 141, 141) ;
+                    font-family: var(--digifont);
+                    font-size: 10px;
+                }
+            }
+        }
+        .forth{
+            width: 127px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .text{
+                a{
+                    text-decoration: none;
+                    color: rgb(143, 141, 141) ;
+                    font-family: var(--digifont);
+                    font-size: 10px;
+                }
+            }
+        }
+        .fifth{
+            width: 127px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .text{
+                a{
+                    text-decoration: none;
+                    color: rgb(143, 141, 141) ;
+                    font-family: var(--digifont);
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+footer>section.bottom{
+    width: 1525px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+    padding-right: 10px;
+    .box{
+        width: 1360px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-right: 5px;
+        .first{
+            width: 160px;
+            height: inherit;
+            text-align: start;
+            h1{
+                width: 160px;
+                font-family: var(--digifont);
+                font-size: 16px;
+            }
+            ul{
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                li{
+                    width: 140px;
+                    height: 30px;
+                    margin-top: 15px;
+                    
+                    a{
+                        color: rgb(143, 141, 141);
+                        text-decoration: none;
+                        font-family: var(--digifont);
+                        font-size: 12px;
+                    }
+
+                }
+            }
+        }
+        .second{
+            width: 160px;
+            height: inherit;
+            text-align: start;
+            margin-right: 250px;
+            h1{
+                width: 160px;
+                font-family: var(--digifont);
+                font-size: 16px;
+            }
+            ul{
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                li{
+                    width: 140px;
+                    height: 30px;
+                    margin-top: 15px;
+                    a{
+                        color: rgb(143, 141, 141);
+                        text-decoration: none;
+                        font-family: var(--digifont);
+                        font-size: 12px;
+                    }
+
+                }
+            }
+        }
+        .third{
+            width: 200px;
+            height: inherit;
+            text-align: start;
+            margin-right: 250px;
+            h1{
+                width: 200px;
+                font-family: var(--digifont);
+                font-size: 16px;
+            }
+            ul{
+                width: inherit;
+                height: inherit;
+                list-style: none;
+                li{
+                    width: 140px;
+                    height: 30px;
+                    margin-top: 15px;
+                    a{
+                        color: rgb(143, 141, 141);
+                        text-decoration: none;
+                        font-family: var(--digifont);
+                        font-size: 12px;
+                    }
+
+                }
+            }
+        }
+        .forth{
+            width: 325px;
+            height: inherit;
+            margin-right: 150px;
+            .text{
+                width:inherit;
+                height: 40px;
+                h1{
+                    color:black ;
+                    font-family: var(--digifont);
+                    font-size: 16px;
+                }
+            }
+            .svg{
+                width: inherit;
+                height: 100px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                margin-bottom: 15px;
+                .a{
+                    margin-top: 10px;
+                }
+                .b{
+                    margin-top: 10px;
+                    margin-right: 20px;
+                }
+                .c{
+                    margin-top: 10px;
+                    margin-right: 20px;
+                }
+                .d{
+                    margin-top: 10px;
+                    margin-right: 20px;
+                }
+            }
+            .login{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                input{
+                    width: 250px;
+                    height: 45px;
+                    border: none;
+                    padding-right: 20px;
+                    font-family: var(--digifont);
+                    border-radius: 7px;
+                    background-color: #F0F0F1;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                button{
+                    width: 50px;
+                    height: 45px;
+                    border: none;
+                    background-color: #E0E0E2;
+                    font-family: var(--digifont);
+                    border-radius: 5px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+footer>section.aplication{
+    width: 1560px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    .box{
+        width: 1480px;
+        height: 75px;
+        border-radius: 10px;
+        display: flex;
+        background-color: #3C4B6D;
+        .lego{
+            width: 60%;
+            height: inherit;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-right: 20px;
+            .pic{
+                width: 45px;
+                height: 45px;
+                border-radius: 5px;
+                background: url(./footer/Digikala-Logo.jpg) no-repeat;
+                background-size: cover;
+            }
+            .text{
+                width: 335px;
+                height: 35px;
+                margin-right: 5px;
+                padding-right: 10px;
+                padding-top: 5px;
+                h1{
+                    color: white;
+                    font-family: var(--digifont);
+                    font-size: 20px;
+                }
+            }
+        }
+        .ap{
+            width: 40%;
+            height: inherit;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .bazar{
+                width: 143px;
+                height: 45px;
+                background-color: white;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-right: 2px;
+                .lego{
+                    width: 95%;
+                    height: 95%;
+                    background: url(./footer/دریافت\ از\ کافه_بازار.svg) no-repeat;
+                    background-size: cover;
+                }
+            }
+            .mayket{
+                width: 143px;
+                height: 45px;
+                background-color: white;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-right: 2px;
+                .lego{
+                    width: 95%;
+                    height: 95%;
+                    background: url(./footer/دریافت\ از\ مایکت.svg) no-repeat;
+                    background-size: cover;
+                }
+            }
+            .sib{
+                width: 143px;
+                height: 45px;
+                background-color: white;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-right: 2px;
+                .lego{
+                    width: 95%;
+                    height: 95%;
+                    background: url(./footer/دریافت\ از\ سیب_اپ.svg) no-repeat;
+                    background-size: cover;
+                }
+            }
+            .more{
+                width: 45px;
+                height: 45px;
+                background-color: white;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .lego{
+                    width: inherit;
+                    height: inherit;
+                    background: url(./footer/svgexport-32.svg) no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+footer>section.manba{
+    width: 1525px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    h3{
+        color: rgb(143, 141, 141) ;
+        font-size: 11px;
+        font-family: var(--digifont);
+    }
+}

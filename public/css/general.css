@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden ;
+}
+@font-face{
+    font-family: font__digikala;
+    src: url(../font/transfonter.org-20250920-155613/cube.eot);
+    src: url(../font/transfonter.org-20250920-155613/cube.ttf);
+    src: url(../font/transfonter.org-20250920-155613/cube.woff);
+    src: url(../font/transfonter.org-20250920-155613/cube.woff2);
+    src: url(../font/iranyekanwebbold.e298fdc6.e298fdc6.woff);
+    src: url(../font/iranyekanwebextrabold.9346e9a2.9346e9a2.woff);
+    src: url(../font/iranyekanwebmedium.2d4f96e5.2d4f96e5.woff);
+    src: url(../font/iranyekanwebregular.b95439c1.b95439c1.woff);
+    src: url(../font/iranyekanwebregular.e31c09af.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+:root{
+    --digifont: font__digikala;
+}

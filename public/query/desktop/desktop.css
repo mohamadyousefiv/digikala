@@ -1,0 +1,44 @@
+@import "../desktop/header.css";
+@import "../desktop/middle.css";
+@import "../desktop/footer.css";
+section.super__market{
+    width: 130px;
+    height: 50px;
+    background-color: #029A49;
+    position: fixed;
+    left: 15px;
+    bottom: 35px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        text-decoration: none;
+    }
+    .text{
+        color: white;
+        font-family: var(--digifont);
+        h1{
+            font-size: 16px;
+        }
+    }
+    .svg{
+        margin-left: 5px;
+    }
+}
+section.about__us{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #EF4056;
+    position: fixed;
+    bottom: 35px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .svg{
+        margin-left: 1px;
+        margin-top: 3px;
+    }
+}
