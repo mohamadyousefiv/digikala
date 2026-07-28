@@ -12,6 +12,7 @@ section.super__market{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
     a{
         text-decoration: none;
     }
@@ -37,6 +38,7 @@ section.about__us{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
     .svg{
         margin-left: 1px;
         margin-top: 3px;
